@@ -1,0 +1,702 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Users\\Admin\\AppData\\Local\\.meteor\\packages\\meteor-tool\\1.4.3_1\\mt-os.windows.x86_32\\dev_bundle\\bin\\node.exe',
+1 verbose cli   'C:\\Users\\Admin\\AppData\\Local\\.meteor\\packages\\meteor-tool\\1.4.3_1\\mt-os.windows.x86_32\\dev_bundle\\lib\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '--save-dev',
+1 verbose cli   'babel-cli',
+1 verbose cli   'babel-preset-react' ]
+2 info using npm@4.1.2
+3 info using node@v4.7.3
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData babel-cli
+8 silly fetchPackageMetaData babel-preset-react
+9 silly fetchNamedPackageData babel-cli
+10 silly mapToRegistry name babel-cli
+11 silly mapToRegistry using default registry
+12 silly mapToRegistry registry https://registry.npmjs.org/
+13 silly mapToRegistry data Result {
+13 silly mapToRegistry   raw: 'babel-cli',
+13 silly mapToRegistry   scope: null,
+13 silly mapToRegistry   escapedName: 'babel-cli',
+13 silly mapToRegistry   name: 'babel-cli',
+13 silly mapToRegistry   rawSpec: '',
+13 silly mapToRegistry   spec: 'latest',
+13 silly mapToRegistry   type: 'tag' }
+14 silly mapToRegistry uri https://registry.npmjs.org/babel-cli
+15 silly fetchNamedPackageData babel-preset-react
+16 silly mapToRegistry name babel-preset-react
+17 silly mapToRegistry using default registry
+18 silly mapToRegistry registry https://registry.npmjs.org/
+19 silly mapToRegistry data Result {
+19 silly mapToRegistry   raw: 'babel-preset-react',
+19 silly mapToRegistry   scope: null,
+19 silly mapToRegistry   escapedName: 'babel-preset-react',
+19 silly mapToRegistry   name: 'babel-preset-react',
+19 silly mapToRegistry   rawSpec: '',
+19 silly mapToRegistry   spec: 'latest',
+19 silly mapToRegistry   type: 'tag' }
+20 silly mapToRegistry uri https://registry.npmjs.org/babel-preset-react
+21 verbose request uri https://registry.npmjs.org/babel-cli
+22 verbose request no auth needed
+23 info attempt registry request try #1 at 11:16:57 AM
+24 verbose request id 4571a7fc7d9e5570
+25 http request GET https://registry.npmjs.org/babel-cli
+26 verbose request uri https://registry.npmjs.org/babel-preset-react
+27 verbose request no auth needed
+28 info attempt registry request try #1 at 11:16:57 AM
+29 http request GET https://registry.npmjs.org/babel-preset-react
+30 http 200 https://registry.npmjs.org/babel-cli
+31 verbose headers { server: 'nginx/1.10.1',
+31 verbose headers   'content-type': 'application/json',
+31 verbose headers   'last-modified': 'Thu, 02 Mar 2017 21:14:29 GMT',
+31 verbose headers   etag: 'W/"58b88b35-15310"',
+31 verbose headers   'content-encoding': 'gzip',
+31 verbose headers   'cache-control': 'max-age=300',
+31 verbose headers   'content-length': '6322',
+31 verbose headers   'accept-ranges': 'bytes',
+31 verbose headers   date: 'Wed, 08 Mar 2017 03:15:50 GMT',
+31 verbose headers   via: '1.1 varnish',
+31 verbose headers   age: '77',
+31 verbose headers   connection: 'keep-alive',
+31 verbose headers   'x-served-by': 'cache-sin6922-SIN',
+31 verbose headers   'x-cache': 'HIT',
+31 verbose headers   'x-cache-hits': '2',
+31 verbose headers   'x-timer': 'S1488942950.796728,VS0,VE0',
+31 verbose headers   vary: 'Accept-Encoding' }
+32 silly get cb [ 200,
+32 silly get   { server: 'nginx/1.10.1',
+32 silly get     'content-type': 'application/json',
+32 silly get     'last-modified': 'Thu, 02 Mar 2017 21:14:29 GMT',
+32 silly get     etag: 'W/"58b88b35-15310"',
+32 silly get     'content-encoding': 'gzip',
+32 silly get     'cache-control': 'max-age=300',
+32 silly get     'content-length': '6322',
+32 silly get     'accept-ranges': 'bytes',
+32 silly get     date: 'Wed, 08 Mar 2017 03:15:50 GMT',
+32 silly get     via: '1.1 varnish',
+32 silly get     age: '77',
+32 silly get     connection: 'keep-alive',
+32 silly get     'x-served-by': 'cache-sin6922-SIN',
+32 silly get     'x-cache': 'HIT',
+32 silly get     'x-cache-hits': '2',
+32 silly get     'x-timer': 'S1488942950.796728,VS0,VE0',
+32 silly get     vary: 'Accept-Encoding' } ]
+33 verbose get saving babel-cli to C:\Users\Admin\AppData\Local\.meteor\packages\meteor-tool\1.4.3_1\mt-os.windows.x86_32\dev_bundle\.npm\registry.npmjs.org\babel-cli\.cache.json
+34 verbose correctMkdir C:\Users\Admin\AppData\Local\.meteor\packages\meteor-tool\1.4.3_1\mt-os.windows.x86_32\dev_bundle\.npm correctMkdir not in flight; initializing
+35 http 200 https://registry.npmjs.org/babel-preset-react
+36 verbose headers { server: 'nginx/1.10.1',
+36 verbose headers   'content-type': 'application/json',
+36 verbose headers   'last-modified': 'Mon, 06 Mar 2017 06:43:10 GMT',
+36 verbose headers   etag: 'W/"58bd04fe-640e"',
+36 verbose headers   'content-encoding': 'gzip',
+36 verbose headers   'cache-control': 'max-age=300',
+36 verbose headers   'content-length': '3083',
+36 verbose headers   'accept-ranges': 'bytes',
+36 verbose headers   date: 'Wed, 08 Mar 2017 03:15:50 GMT',
+36 verbose headers   via: '1.1 varnish',
+36 verbose headers   age: '134',
+36 verbose headers   connection: 'keep-alive',
+36 verbose headers   'x-served-by': 'cache-sin6923-SIN',
+36 verbose headers   'x-cache': 'HIT',
+36 verbose headers   'x-cache-hits': '2',
+36 verbose headers   'x-timer': 'S1488942950.799448,VS0,VE0',
+36 verbose headers   vary: 'Accept-Encoding' }
+37 silly get cb [ 200,
+37 silly get   { server: 'nginx/1.10.1',
+37 silly get     'content-type': 'application/json',
+37 silly get     'last-modified': 'Mon, 06 Mar 2017 06:43:10 GMT',
+37 silly get     etag: 'W/"58bd04fe-640e"',
+37 silly get     'content-encoding': 'gzip',
+37 silly get     'cache-control': 'max-age=300',
+37 silly get     'content-length': '3083',
+37 silly get     'accept-ranges': 'bytes',
+37 silly get     date: 'Wed, 08 Mar 2017 03:15:50 GMT',
+37 silly get     via: '1.1 varnish',
+37 silly get     age: '134',
+37 silly get     connection: 'keep-alive',
+37 silly get     'x-served-by': 'cache-sin6923-SIN',
+37 silly get     'x-cache': 'HIT',
+37 silly get     'x-cache-hits': '2',
+37 silly get     'x-timer': 'S1488942950.799448,VS0,VE0',
+37 silly get     vary: 'Accept-Encoding' } ]
+38 verbose get saving babel-preset-react to C:\Users\Admin\AppData\Local\.meteor\packages\meteor-tool\1.4.3_1\mt-os.windows.x86_32\dev_bundle\.npm\registry.npmjs.org\babel-preset-react\.cache.json
+39 verbose correctMkdir C:\Users\Admin\AppData\Local\.meteor\packages\meteor-tool\1.4.3_1\mt-os.windows.x86_32\dev_bundle\.npm correctMkdir not in flight; initializing
+40 silly install normalizeTree
+41 silly loadCurrentTree Finishing
+42 silly loadIdealTree Starting
+43 silly install loadIdealTree
+44 silly cloneCurrentTree Starting
+45 silly install cloneCurrentTreeToIdealTree
+46 silly cloneCurrentTree Finishing
+47 silly loadShrinkwrap Starting
+48 silly install loadShrinkwrap
+49 silly loadShrinkwrap Finishing
+50 silly loadAllDepsIntoIdealTree Starting
+51 silly install loadAllDepsIntoIdealTree
+52 silly resolveWithNewModule babel-cli@6.23.0 checking installable status
+53 silly cache add args [ 'babel-cli', null ]
+54 verbose cache add spec babel-cli
+55 silly resolveWithNewModule babel-preset-react@6.23.0 checking installable status
+56 silly cache add args [ 'babel-preset-react', null ]
+57 verbose cache add spec babel-preset-react
+58 silly cache add parsed spec Result {
+58 silly cache add   raw: 'babel-cli',
+58 silly cache add   scope: null,
+58 silly cache add   escapedName: 'babel-cli',
+58 silly cache add   name: 'babel-cli',
+58 silly cache add   rawSpec: '',
+58 silly cache add   spec: 'latest',
+58 silly cache add   type: 'tag' }
+59 silly addNamed babel-cli@latest
+60 verbose addNamed "latest" is being treated as a dist-tag for babel-cli
+61 info addNameTag [ 'babel-cli', 'latest' ]
+62 silly mapToRegistry name babel-cli
+63 silly mapToRegistry using default registry
+64 silly mapToRegistry registry https://registry.npmjs.org/
+65 silly mapToRegistry data Result {
+65 silly mapToRegistry   raw: 'babel-cli',
+65 silly mapToRegistry   scope: null,
+65 silly mapToRegistry   escapedName: 'babel-cli',
+65 silly mapToRegistry   name: 'babel-cli',
+65 silly mapToRegistry   rawSpec: '',
+65 silly mapToRegistry   spec: 'latest',
+65 silly mapToRegistry   type: 'tag' }
+66 silly mapToRegistry uri https://registry.npmjs.org/babel-cli
+67 verbose addNameTag registry:https://registry.npmjs.org/babel-cli not in flight; fetching
+68 silly cache add parsed spec Result {
+68 silly cache add   raw: 'babel-preset-react',
+68 silly cache add   scope: null,
+68 silly cache add   escapedName: 'babel-preset-react',
+68 silly cache add   name: 'babel-preset-react',
+68 silly cache add   rawSpec: '',
+68 silly cache add   spec: 'latest',
+68 silly cache add   type: 'tag' }
+69 silly addNamed babel-preset-react@latest
+70 verbose addNamed "latest" is being treated as a dist-tag for babel-preset-react
+71 info addNameTag [ 'babel-preset-react', 'latest' ]
+72 silly mapToRegistry name babel-preset-react
+73 silly mapToRegistry using default registry
+74 silly mapToRegistry registry https://registry.npmjs.org/
+75 silly mapToRegistry data Result {
+75 silly mapToRegistry   raw: 'babel-preset-react',
+75 silly mapToRegistry   scope: null,
+75 silly mapToRegistry   escapedName: 'babel-preset-react',
+75 silly mapToRegistry   name: 'babel-preset-react',
+75 silly mapToRegistry   rawSpec: '',
+75 silly mapToRegistry   spec: 'latest',
+75 silly mapToRegistry   type: 'tag' }
+76 silly mapToRegistry uri https://registry.npmjs.org/babel-preset-react
+77 verbose addNameTag registry:https://registry.npmjs.org/babel-preset-react not in flight; fetching
+78 verbose get https://registry.npmjs.org/babel-cli not expired, no request
+79 silly addNameTag next cb for babel-cli with tag latest
+80 silly addNamed babel-cli@6.23.0
+81 verbose addNamed "6.23.0" is a plain semver version for babel-cli
+82 verbose get https://registry.npmjs.org/babel-preset-react not expired, no request
+83 silly addNameTag next cb for babel-preset-react with tag latest
+84 silly addNamed babel-preset-react@6.23.0
+85 verbose addNamed "6.23.0" is a plain semver version for babel-preset-react
+86 silly mapToRegistry name babel-cli
+87 silly mapToRegistry using default registry
+88 silly mapToRegistry registry https://registry.npmjs.org/
+89 silly mapToRegistry data Result {
+89 silly mapToRegistry   raw: 'babel-cli',
+89 silly mapToRegistry   scope: null,
+89 silly mapToRegistry   escapedName: 'babel-cli',
+89 silly mapToRegistry   name: 'babel-cli',
+89 silly mapToRegistry   rawSpec: '',
+89 silly mapToRegistry   spec: 'latest',
+89 silly mapToRegistry   type: 'tag' }
+90 silly mapToRegistry uri https://registry.npmjs.org/babel-cli
+91 verbose addRemoteTarball https://registry.npmjs.org/babel-cli/-/babel-cli-6.23.0.tgz not in flight; adding
+92 verbose addRemoteTarball [ 'https://registry.npmjs.org/babel-cli/-/babel-cli-6.23.0.tgz',
+92 verbose addRemoteTarball   '52ff946a2b0f64645c35e7bd5eea267aa0948c0f' ]
+93 silly mapToRegistry name babel-preset-react
+94 silly mapToRegistry using default registry
+95 silly mapToRegistry registry https://registry.npmjs.org/
+96 silly mapToRegistry data Result {
+96 silly mapToRegistry   raw: 'babel-preset-react',
+96 silly mapToRegistry   scope: null,
+96 silly mapToRegistry   escapedName: 'babel-preset-react',
+96 silly mapToRegistry   name: 'babel-preset-react',
+96 silly mapToRegistry   rawSpec: '',
+96 silly mapToRegistry   spec: 'latest',
+96 silly mapToRegistry   type: 'tag' }
+97 silly mapToRegistry uri https://registry.npmjs.org/babel-preset-react
+98 verbose addRemoteTarball https://registry.npmjs.org/babel-preset-react/-/babel-preset-react-6.23.0.tgz not in flight; adding
+99 verbose addRemoteTarball [ 'https://registry.npmjs.org/babel-preset-react/-/babel-preset-react-6.23.0.tgz',
+99 verbose addRemoteTarball   'eb7cee4de98a3f94502c28565332da9819455195' ]
+100 info retry fetch attempt 1 at 11:16:58 AM
+101 info attempt registry request try #1 at 11:16:58 AM
+102 http fetch GET https://registry.npmjs.org/babel-cli/-/babel-cli-6.23.0.tgz
+103 info retry fetch attempt 1 at 11:16:58 AM
+104 info attempt registry request try #1 at 11:16:58 AM
+105 http fetch GET https://registry.npmjs.org/babel-preset-react/-/babel-preset-react-6.23.0.tgz
+106 http fetch 200 https://registry.npmjs.org/babel-preset-react/-/babel-preset-react-6.23.0.tgz
+107 http fetch 200 https://registry.npmjs.org/babel-cli/-/babel-cli-6.23.0.tgz
+108 silly fetchAndShaCheck shasum eb7cee4de98a3f94502c28565332da9819455195
+109 verbose addTmpTarball C:\Users\Admin\AppData\Local\Temp\npm-864-f908d0d3\registry.npmjs.org\babel-preset-react\-\babel-preset-react-6.23.0.tgz not in flight; adding
+110 verbose addTmpTarball already have metadata; skipping unpack for babel-preset-react@6.23.0
+111 verbose correctMkdir C:\Users\Admin\AppData\Local\.meteor\packages\meteor-tool\1.4.3_1\mt-os.windows.x86_32\dev_bundle\.npm correctMkdir not in flight; initializing
+112 silly cache afterAdd babel-preset-react@6.23.0
+113 verbose afterAdd C:\Users\Admin\AppData\Local\.meteor\packages\meteor-tool\1.4.3_1\mt-os.windows.x86_32\dev_bundle\.npm\babel-preset-react\6.23.0\package\package.json not in flight; writing
+114 verbose correctMkdir C:\Users\Admin\AppData\Local\.meteor\packages\meteor-tool\1.4.3_1\mt-os.windows.x86_32\dev_bundle\.npm correctMkdir not in flight; initializing
+115 silly fetchAndShaCheck shasum 52ff946a2b0f64645c35e7bd5eea267aa0948c0f
+116 verbose addTmpTarball C:\Users\Admin\AppData\Local\Temp\npm-864-f908d0d3\registry.npmjs.org\babel-cli\-\babel-cli-6.23.0.tgz not in flight; adding
+117 verbose addTmpTarball already have metadata; skipping unpack for babel-cli@6.23.0
+118 verbose correctMkdir C:\Users\Admin\AppData\Local\.meteor\packages\meteor-tool\1.4.3_1\mt-os.windows.x86_32\dev_bundle\.npm correctMkdir not in flight; initializing
+119 silly cache afterAdd babel-cli@6.23.0
+120 verbose afterAdd C:\Users\Admin\AppData\Local\.meteor\packages\meteor-tool\1.4.3_1\mt-os.windows.x86_32\dev_bundle\.npm\babel-cli\6.23.0\package\package.json not in flight; writing
+121 verbose correctMkdir C:\Users\Admin\AppData\Local\.meteor\packages\meteor-tool\1.4.3_1\mt-os.windows.x86_32\dev_bundle\.npm correctMkdir not in flight; initializing
+122 verbose afterAdd C:\Users\Admin\AppData\Local\.meteor\packages\meteor-tool\1.4.3_1\mt-os.windows.x86_32\dev_bundle\.npm\babel-preset-react\6.23.0\package\package.json written
+123 verbose afterAdd C:\Users\Admin\AppData\Local\.meteor\packages\meteor-tool\1.4.3_1\mt-os.windows.x86_32\dev_bundle\.npm\babel-cli\6.23.0\package\package.json written
+124 silly fetchNamedPackageData babel-core
+125 silly mapToRegistry name babel-core
+126 silly mapToRegistry using default registry
+127 silly mapToRegistry registry https://registry.npmjs.org/
+128 silly mapToRegistry data Result {
+128 silly mapToRegistry   raw: 'babel-core',
+128 silly mapToRegistry   scope: null,
+128 silly mapToRegistry   escapedName: 'babel-core',
+128 silly mapToRegistry   name: 'babel-core',
+128 silly mapToRegistry   rawSpec: '',
+128 silly mapToRegistry   spec: 'latest',
+128 silly mapToRegistry   type: 'tag' }
+129 silly mapToRegistry uri https://registry.npmjs.org/babel-core
+130 silly fetchNamedPackageData babel-register
+131 silly mapToRegistry name babel-register
+132 silly mapToRegistry using default registry
+133 silly mapToRegistry registry https://registry.npmjs.org/
+134 silly mapToRegistry data Result {
+134 silly mapToRegistry   raw: 'babel-register',
+134 silly mapToRegistry   scope: null,
+134 silly mapToRegistry   escapedName: 'babel-register',
+134 silly mapToRegistry   name: 'babel-register',
+134 silly mapToRegistry   rawSpec: '',
+134 silly mapToRegistry   spec: 'latest',
+134 silly mapToRegistry   type: 'tag' }
+135 silly mapToRegistry uri https://registry.npmjs.org/babel-register
+136 silly fetchNamedPackageData babel-polyfill
+137 silly mapToRegistry name babel-polyfill
+138 silly mapToRegistry using default registry
+139 silly mapToRegistry registry https://registry.npmjs.org/
+140 silly mapToRegistry data Result {
+140 silly mapToRegistry   raw: 'babel-polyfill',
+140 silly mapToRegistry   scope: null,
+140 silly mapToRegistry   escapedName: 'babel-polyfill',
+140 silly mapToRegistry   name: 'babel-polyfill',
+140 silly mapToRegistry   rawSpec: '',
+140 silly mapToRegistry   spec: 'latest',
+140 silly mapToRegistry   type: 'tag' }
+141 silly mapToRegistry uri https://registry.npmjs.org/babel-polyfill
+142 silly fetchNamedPackageData commander
+143 silly mapToRegistry name commander
+144 silly mapToRegistry using default registry
+145 silly mapToRegistry registry https://registry.npmjs.org/
+146 silly mapToRegistry data Result {
+146 silly mapToRegistry   raw: 'commander',
+146 silly mapToRegistry   scope: null,
+146 silly mapToRegistry   escapedName: 'commander',
+146 silly mapToRegistry   name: 'commander',
+146 silly mapToRegistry   rawSpec: '',
+146 silly mapToRegistry   spec: 'latest',
+146 silly mapToRegistry   type: 'tag' }
+147 silly mapToRegistry uri https://registry.npmjs.org/commander
+148 silly fetchNamedPackageData convert-source-map
+149 silly mapToRegistry name convert-source-map
+150 silly mapToRegistry using default registry
+151 silly mapToRegistry registry https://registry.npmjs.org/
+152 silly mapToRegistry data Result {
+152 silly mapToRegistry   raw: 'convert-source-map',
+152 silly mapToRegistry   scope: null,
+152 silly mapToRegistry   escapedName: 'convert-source-map',
+152 silly mapToRegistry   name: 'convert-source-map',
+152 silly mapToRegistry   rawSpec: '',
+152 silly mapToRegistry   spec: 'latest',
+152 silly mapToRegistry   type: 'tag' }
+153 silly mapToRegistry uri https://registry.npmjs.org/convert-source-map
+154 silly fetchNamedPackageData fs-readdir-recursive
+155 silly mapToRegistry name fs-readdir-recursive
+156 silly mapToRegistry using default registry
+157 silly mapToRegistry registry https://registry.npmjs.org/
+158 silly mapToRegistry data Result {
+158 silly mapToRegistry   raw: 'fs-readdir-recursive',
+158 silly mapToRegistry   scope: null,
+158 silly mapToRegistry   escapedName: 'fs-readdir-recursive',
+158 silly mapToRegistry   name: 'fs-readdir-recursive',
+158 silly mapToRegistry   rawSpec: '',
+158 silly mapToRegistry   spec: 'latest',
+158 silly mapToRegistry   type: 'tag' }
+159 silly mapToRegistry uri https://registry.npmjs.org/fs-readdir-recursive
+160 silly fetchNamedPackageData glob
+161 silly mapToRegistry name glob
+162 silly mapToRegistry using default registry
+163 silly mapToRegistry registry https://registry.npmjs.org/
+164 silly mapToRegistry data Result {
+164 silly mapToRegistry   raw: 'glob',
+164 silly mapToRegistry   scope: null,
+164 silly mapToRegistry   escapedName: 'glob',
+164 silly mapToRegistry   name: 'glob',
+164 silly mapToRegistry   rawSpec: '',
+164 silly mapToRegistry   spec: 'latest',
+164 silly mapToRegistry   type: 'tag' }
+165 silly mapToRegistry uri https://registry.npmjs.org/glob
+166 silly fetchNamedPackageData lodash
+167 silly mapToRegistry name lodash
+168 silly mapToRegistry using default registry
+169 silly mapToRegistry registry https://registry.npmjs.org/
+170 silly mapToRegistry data Result {
+170 silly mapToRegistry   raw: 'lodash',
+170 silly mapToRegistry   scope: null,
+170 silly mapToRegistry   escapedName: 'lodash',
+170 silly mapToRegistry   name: 'lodash',
+170 silly mapToRegistry   rawSpec: '',
+170 silly mapToRegistry   spec: 'latest',
+170 silly mapToRegistry   type: 'tag' }
+171 silly mapToRegistry uri https://registry.npmjs.org/lodash
+172 silly fetchNamedPackageData output-file-sync
+173 silly mapToRegistry name output-file-sync
+174 silly mapToRegistry using default registry
+175 silly mapToRegistry registry https://registry.npmjs.org/
+176 silly mapToRegistry data Result {
+176 silly mapToRegistry   raw: 'output-file-sync',
+176 silly mapToRegistry   scope: null,
+176 silly mapToRegistry   escapedName: 'output-file-sync',
+176 silly mapToRegistry   name: 'output-file-sync',
+176 silly mapToRegistry   rawSpec: '',
+176 silly mapToRegistry   spec: 'latest',
+176 silly mapToRegistry   type: 'tag' }
+177 silly mapToRegistry uri https://registry.npmjs.org/output-file-sync
+178 silly fetchNamedPackageData path-is-absolute
+179 silly mapToRegistry name path-is-absolute
+180 silly mapToRegistry using default registry
+181 silly mapToRegistry registry https://registry.npmjs.org/
+182 silly mapToRegistry data Result {
+182 silly mapToRegistry   raw: 'path-is-absolute',
+182 silly mapToRegistry   scope: null,
+182 silly mapToRegistry   escapedName: 'path-is-absolute',
+182 silly mapToRegistry   name: 'path-is-absolute',
+182 silly mapToRegistry   rawSpec: '',
+182 silly mapToRegistry   spec: 'latest',
+182 silly mapToRegistry   type: 'tag' }
+183 silly mapToRegistry uri https://registry.npmjs.org/path-is-absolute
+184 silly fetchNamedPackageData slash
+185 silly mapToRegistry name slash
+186 silly mapToRegistry using default registry
+187 silly mapToRegistry registry https://registry.npmjs.org/
+188 silly mapToRegistry data Result {
+188 silly mapToRegistry   raw: 'slash',
+188 silly mapToRegistry   scope: null,
+188 silly mapToRegistry   escapedName: 'slash',
+188 silly mapToRegistry   name: 'slash',
+188 silly mapToRegistry   rawSpec: '',
+188 silly mapToRegistry   spec: 'latest',
+188 silly mapToRegistry   type: 'tag' }
+189 silly mapToRegistry uri https://registry.npmjs.org/slash
+190 silly fetchNamedPackageData source-map
+191 silly mapToRegistry name source-map
+192 silly mapToRegistry using default registry
+193 silly mapToRegistry registry https://registry.npmjs.org/
+194 silly mapToRegistry data Result {
+194 silly mapToRegistry   raw: 'source-map',
+194 silly mapToRegistry   scope: null,
+194 silly mapToRegistry   escapedName: 'source-map',
+194 silly mapToRegistry   name: 'source-map',
+194 silly mapToRegistry   rawSpec: '',
+194 silly mapToRegistry   spec: 'latest',
+194 silly mapToRegistry   type: 'tag' }
+195 silly mapToRegistry uri https://registry.npmjs.org/source-map
+196 silly fetchNamedPackageData v8flags
+197 silly mapToRegistry name v8flags
+198 silly mapToRegistry using default registry
+199 silly mapToRegistry registry https://registry.npmjs.org/
+200 silly mapToRegistry data Result {
+200 silly mapToRegistry   raw: 'v8flags',
+200 silly mapToRegistry   scope: null,
+200 silly mapToRegistry   escapedName: 'v8flags',
+200 silly mapToRegistry   name: 'v8flags',
+200 silly mapToRegistry   rawSpec: '',
+200 silly mapToRegistry   spec: 'latest',
+200 silly mapToRegistry   type: 'tag' }
+201 silly mapToRegistry uri https://registry.npmjs.org/v8flags
+202 silly fetchNamedPackageData chokidar
+203 silly mapToRegistry name chokidar
+204 silly mapToRegistry using default registry
+205 silly mapToRegistry registry https://registry.npmjs.org/
+206 silly mapToRegistry data Result {
+206 silly mapToRegistry   raw: 'chokidar',
+206 silly mapToRegistry   scope: null,
+206 silly mapToRegistry   escapedName: 'chokidar',
+206 silly mapToRegistry   name: 'chokidar',
+206 silly mapToRegistry   rawSpec: '',
+206 silly mapToRegistry   spec: 'latest',
+206 silly mapToRegistry   type: 'tag' }
+207 silly mapToRegistry uri https://registry.npmjs.org/chokidar
+208 verbose request uri https://registry.npmjs.org/babel-core
+209 verbose request no auth needed
+210 info attempt registry request try #1 at 11:16:58 AM
+211 http request GET https://registry.npmjs.org/babel-core
+212 verbose request uri https://registry.npmjs.org/babel-register
+213 verbose request no auth needed
+214 info attempt registry request try #1 at 11:16:58 AM
+215 http request GET https://registry.npmjs.org/babel-register
+216 verbose request uri https://registry.npmjs.org/babel-polyfill
+217 verbose request no auth needed
+218 info attempt registry request try #1 at 11:16:58 AM
+219 http request GET https://registry.npmjs.org/babel-polyfill
+220 verbose request uri https://registry.npmjs.org/commander
+221 verbose request no auth needed
+222 info attempt registry request try #1 at 11:16:58 AM
+223 http request GET https://registry.npmjs.org/commander
+224 verbose request uri https://registry.npmjs.org/convert-source-map
+225 verbose request no auth needed
+226 info attempt registry request try #1 at 11:16:58 AM
+227 http request GET https://registry.npmjs.org/convert-source-map
+228 verbose request uri https://registry.npmjs.org/fs-readdir-recursive
+229 verbose request no auth needed
+230 info attempt registry request try #1 at 11:16:58 AM
+231 http request GET https://registry.npmjs.org/fs-readdir-recursive
+232 verbose request uri https://registry.npmjs.org/output-file-sync
+233 verbose request no auth needed
+234 info attempt registry request try #1 at 11:16:58 AM
+235 http request GET https://registry.npmjs.org/output-file-sync
+236 verbose request uri https://registry.npmjs.org/slash
+237 verbose request no auth needed
+238 info attempt registry request try #1 at 11:16:58 AM
+239 http request GET https://registry.npmjs.org/slash
+240 verbose request uri https://registry.npmjs.org/source-map
+241 verbose request no auth needed
+242 info attempt registry request try #1 at 11:16:58 AM
+243 http request GET https://registry.npmjs.org/source-map
+244 verbose request uri https://registry.npmjs.org/v8flags
+245 verbose request no auth needed
+246 info attempt registry request try #1 at 11:16:58 AM
+247 http request GET https://registry.npmjs.org/v8flags
+248 verbose request uri https://registry.npmjs.org/chokidar
+249 verbose request no auth needed
+250 info attempt registry request try #1 at 11:16:58 AM
+251 http request GET https://registry.npmjs.org/chokidar
+252 verbose request uri https://registry.npmjs.org/path-is-absolute
+253 verbose request no auth needed
+254 info attempt registry request try #1 at 11:16:58 AM
+255 verbose etag W/"5818d860-1312"
+256 verbose lastModified Tue, 01 Nov 2016 18:01:04 GMT
+257 http request GET https://registry.npmjs.org/path-is-absolute
+258 verbose request uri https://registry.npmjs.org/glob
+259 verbose request no auth needed
+260 info attempt registry request try #1 at 11:16:58 AM
+261 verbose etag W/"58a5de85-1f647"
+262 verbose lastModified Thu, 16 Feb 2017 17:16:53 GMT
+263 http request GET https://registry.npmjs.org/glob
+264 verbose request uri https://registry.npmjs.org/lodash
+265 verbose request no auth needed
+266 info attempt registry request try #1 at 11:16:58 AM
+267 verbose etag W/"58b69c29-28ffd"
+268 verbose lastModified Wed, 01 Mar 2017 10:02:17 GMT
+269 http request GET https://registry.npmjs.org/lodash
+270 http 200 https://registry.npmjs.org/babel-register
+271 verbose headers { server: 'nginx/1.10.1',
+271 verbose headers   'content-type': 'application/json',
+271 verbose headers   'last-modified': 'Mon, 06 Mar 2017 13:25:20 GMT',
+271 verbose headers   etag: 'W/"58bd6340-88e4"',
+271 verbose headers   'content-encoding': 'gzip',
+271 verbose headers   'cache-control': 'max-age=300',
+271 verbose headers   'content-length': '3515',
+271 verbose headers   'accept-ranges': 'bytes',
+271 verbose headers   date: 'Wed, 08 Mar 2017 03:15:51 GMT',
+271 verbose headers   via: '1.1 varnish',
+271 verbose headers   age: '17',
+271 verbose headers   connection: 'keep-alive',
+271 verbose headers   'x-served-by': 'cache-sin6922-SIN',
+271 verbose headers   'x-cache': 'HIT',
+271 verbose headers   'x-cache-hits': '2',
+271 verbose headers   'x-timer': 'S1488942951.158819,VS0,VE0',
+271 verbose headers   vary: 'Accept-Encoding' }
+272 silly get cb [ 200,
+272 silly get   { server: 'nginx/1.10.1',
+272 silly get     'content-type': 'application/json',
+272 silly get     'last-modified': 'Mon, 06 Mar 2017 13:25:20 GMT',
+272 silly get     etag: 'W/"58bd6340-88e4"',
+272 silly get     'content-encoding': 'gzip',
+272 silly get     'cache-control': 'max-age=300',
+272 silly get     'content-length': '3515',
+272 silly get     'accept-ranges': 'bytes',
+272 silly get     date: 'Wed, 08 Mar 2017 03:15:51 GMT',
+272 silly get     via: '1.1 varnish',
+272 silly get     age: '17',
+272 silly get     connection: 'keep-alive',
+272 silly get     'x-served-by': 'cache-sin6922-SIN',
+272 silly get     'x-cache': 'HIT',
+272 silly get     'x-cache-hits': '2',
+272 silly get     'x-timer': 'S1488942951.158819,VS0,VE0',
+272 silly get     vary: 'Accept-Encoding' } ]
+273 verbose get saving babel-register to C:\Users\Admin\AppData\Local\.meteor\packages\meteor-tool\1.4.3_1\mt-os.windows.x86_32\dev_bundle\.npm\registry.npmjs.org\babel-register\.cache.json
+274 verbose correctMkdir C:\Users\Admin\AppData\Local\.meteor\packages\meteor-tool\1.4.3_1\mt-os.windows.x86_32\dev_bundle\.npm correctMkdir not in flight; initializing
+275 silly pickManifestFromRegistryMetadata spec >=6.23.0 <7.0.0 tag latest versions [ '6.1.4',
+275 silly pickManifestFromRegistryMetadata   '6.1.17',
+275 silly pickManifestFromRegistryMetadata   '6.1.18',
+275 silly pickManifestFromRegistryMetadata   '6.2.0',
+275 silly pickManifestFromRegistryMetadata   '6.2.4',
+275 silly pickManifestFromRegistryMetadata   '6.3.2',
+275 silly pickManifestFromRegistryMetadata   '6.3.13',
+275 silly pickManifestFromRegistryMetadata   '6.4.3',
+275 silly pickManifestFromRegistryMetadata   '6.5.0',
+275 silly pickManifestFromRegistryMetadata   '6.5.0-1',
+275 silly pickManifestFromRegistryMetadata   '6.5.1',
+275 silly pickManifestFromRegistryMetadata   '6.5.2',
+275 silly pickManifestFromRegistryMetadata   '6.6.0',
+275 silly pickManifestFromRegistryMetadata   '6.6.5',
+275 silly pickManifestFromRegistryMetadata   '6.7.2',
+275 silly pickManifestFromRegistryMetadata   '6.8.0',
+275 silly pickManifestFromRegistryMetadata   '6.9.0',
+275 silly pickManifestFromRegistryMetadata   '6.11.5',
+275 silly pickManifestFromRegistryMetadata   '6.11.6',
+275 silly pickManifestFromRegistryMetadata   '6.14.0',
+275 silly pickManifestFromRegistryMetadata   '6.16.0',
+275 silly pickManifestFromRegistryMetadata   '6.16.3',
+275 silly pickManifestFromRegistryMetadata   '6.18.0',
+275 silly pickManifestFromRegistryMetadata   '6.22.0',
+275 silly pickManifestFromRegistryMetadata   '6.23.0',
+275 silly pickManifestFromRegistryMetadata   '7.0.0-alpha.1' ]
+276 silly resolveWithNewModule babel-register@6.23.0 checking installable status
+277 silly cache add args [ 'babel-register@^6.23.0', null ]
+278 verbose cache add spec babel-register@^6.23.0
+279 silly cache add parsed spec Result {
+279 silly cache add   raw: 'babel-register@^6.23.0',
+279 silly cache add   scope: null,
+279 silly cache add   escapedName: 'babel-register',
+279 silly cache add   name: 'babel-register',
+279 silly cache add   rawSpec: '^6.23.0',
+279 silly cache add   spec: '>=6.23.0 <7.0.0',
+279 silly cache add   type: 'range' }
+280 silly addNamed babel-register@>=6.23.0 <7.0.0
+281 verbose addNamed ">=6.23.0 <7.0.0" is a valid semver range for babel-register
+282 silly addNameRange { name: 'babel-register',
+282 silly addNameRange   range: '>=6.23.0 <7.0.0',
+282 silly addNameRange   hasData: false }
+283 silly mapToRegistry name babel-register
+284 silly mapToRegistry using default registry
+285 silly mapToRegistry registry https://registry.npmjs.org/
+286 silly mapToRegistry data Result {
+286 silly mapToRegistry   raw: 'babel-register',
+286 silly mapToRegistry   scope: null,
+286 silly mapToRegistry   escapedName: 'babel-register',
+286 silly mapToRegistry   name: 'babel-register',
+286 silly mapToRegistry   rawSpec: '',
+286 silly mapToRegistry   spec: 'latest',
+286 silly mapToRegistry   type: 'tag' }
+287 silly mapToRegistry uri https://registry.npmjs.org/babel-register
+288 verbose addNameRange registry:https://registry.npmjs.org/babel-register not in flight; fetching
+289 verbose get https://registry.npmjs.org/babel-register not expired, no request
+290 silly addNameRange number 2 { name: 'babel-register',
+290 silly addNameRange   range: '>=6.23.0 <7.0.0',
+290 silly addNameRange   hasData: true }
+291 silly addNameRange versions [ 'babel-register',
+291 silly addNameRange   [ '6.1.4',
+291 silly addNameRange     '6.1.17',
+291 silly addNameRange     '6.1.18',
+291 silly addNameRange     '6.2.0',
+291 silly addNameRange     '6.2.4',
+291 silly addNameRange     '6.3.2',
+291 silly addNameRange     '6.3.13',
+291 silly addNameRange     '6.4.3',
+291 silly addNameRange     '6.5.0',
+291 silly addNameRange     '6.5.0-1',
+291 silly addNameRange     '6.5.1',
+291 silly addNameRange     '6.5.2',
+291 silly addNameRange     '6.6.0',
+291 silly addNameRange     '6.6.5',
+291 silly addNameRange     '6.7.2',
+291 silly addNameRange     '6.8.0',
+291 silly addNameRange     '6.9.0',
+291 silly addNameRange     '6.11.5',
+291 silly addNameRange     '6.11.6',
+291 silly addNameRange     '6.14.0',
+291 silly addNameRange     '6.16.0',
+291 silly addNameRange     '6.16.3',
+291 silly addNameRange     '6.18.0',
+291 silly addNameRange     '6.22.0',
+291 silly addNameRange     '6.23.0',
+291 silly addNameRange     '7.0.0-alpha.1' ] ]
+292 silly pickManifestFromRegistryMetadata spec >=6.23.0 <7.0.0 tag latest versions [ '6.1.4',
+292 silly pickManifestFromRegistryMetadata   '6.1.17',
+292 silly pickManifestFromRegistryMetadata   '6.1.18',
+292 silly pickManifestFromRegistryMetadata   '6.2.0',
+292 silly pickManifestFromRegistryMetadata   '6.2.4',
+292 silly pickManifestFromRegistryMetadata   '6.3.2',
+292 silly pickManifestFromRegistryMetadata   '6.3.13',
+292 silly pickManifestFromRegistryMetadata   '6.4.3',
+292 silly pickManifestFromRegistryMetadata   '6.5.0',
+292 silly pickManifestFromRegistryMetadata   '6.5.0-1',
+292 silly pickManifestFromRegistryMetadata   '6.5.1',
+292 silly pickManifestFromRegistryMetadata   '6.5.2',
+292 silly pickManifestFromRegistryMetadata   '6.6.0',
+292 silly pickManifestFromRegistryMetadata   '6.6.5',
+292 silly pickManifestFromRegistryMetadata   '6.7.2',
+292 silly pickManifestFromRegistryMetadata   '6.8.0',
+292 silly pickManifestFromRegistryMetadata   '6.9.0',
+292 silly pickManifestFromRegistryMetadata   '6.11.5',
+292 silly pickManifestFromRegistryMetadata   '6.11.6',
+292 silly pickManifestFromRegistryMetadata   '6.14.0',
+292 silly pickManifestFromRegistryMetadata   '6.16.0',
+292 silly pickManifestFromRegistryMetadata   '6.16.3',
+292 silly pickManifestFromRegistryMetadata   '6.18.0',
+292 silly pickManifestFromRegistryMetadata   '6.22.0',
+292 silly pickManifestFromRegistryMetadata   '6.23.0',
+292 silly pickManifestFromRegistryMetadata   '7.0.0-alpha.1' ]
+293 silly addNamed babel-register@latest
+294 verbose addNamed "latest" is being treated as a dist-tag for babel-register
+295 info addNameTag [ 'babel-register', 'latest' ]
+296 silly mapToRegistry name babel-register
+297 silly mapToRegistry using default registry
+298 silly mapToRegistry registry https://registry.npmjs.org/
+299 silly mapToRegistry data Result {
+299 silly mapToRegistry   raw: 'babel-register',
+299 silly mapToRegistry   scope: null,
+299 silly mapToRegistry   escapedName: 'babel-register',
+299 silly mapToRegistry   name: 'babel-register',
+299 silly mapToRegistry   rawSpec: '',
+299 silly mapToRegistry   spec: 'latest',
+299 silly mapToRegistry   type: 'tag' }
+300 silly mapToRegistry uri https://registry.npmjs.org/babel-register
+301 verbose addNameTag registry:https://registry.npmjs.org/babel-register already in flight; waiting
+302 silly addNameTag next cb for babel-register with tag latest
+303 silly addNamed babel-register@6.23.0
+304 verbose addNamed "6.23.0" is a plain semver version for babel-register
+305 silly mapToRegistry name babel-register
+306 silly mapToRegistry using default registry
+307 silly mapToRegistry registry https://registry.npmjs.org/
+308 silly mapToRegistry data Result {
+308 silly mapToRegistry   raw: 'babel-register',
+308 silly mapToRegistry   scope: null,
+308 silly mapToRegistry   escapedName: 'babel-register',
+308 silly mapToRegistry   name: 'babel-register',
+308 silly mapToRegistry   rawSpec: '',
+308 silly mapToRegistry   spec: 'latest',
+308 silly mapToRegistry   type: 'tag' }
+309 silly mapToRegistry uri https://registry.npmjs.org/babel-register
+310 verbose addRemoteTarball https://registry.npmjs.org/babel-register/-/babel-register-6.23.0.tgz not in flight; adding
+311 verbose addRemoteTarball [ 'https://registry.npmjs.org/babel-register/-/babel-register-6.23.0.tgz',
+311 verbose addRemoteTarball   'c9aa3d4cca94b51da34826c4a0f9e08145d74ff3' ]
+312 info retry fetch attempt 1 at 11:16:58 AM
+313 info attempt registry request try #1 at 11:16:58 AM
+314 http fetch GET https://registry.npmjs.org/babel-register/-/babel-register-6.23.0.tgz
+315 http fetch 200 https://registry.npmjs.org/babel-register/-/babel-register-6.23.0.tgz
+316 warn retry will retry, error on last attempt: Error: EBUSY: resource busy or locked, rename 'C:\Users\Admin\AppData\Local\Temp\npm-864-f908d0d3\registry.npmjs.org\babel-register\-\babel-register-6.23.0.tgz.1375614204' -> 'C:\Users\Admin\AppData\Local\Temp\npm-864-f908d0d3\registry.npmjs.org\babel-register\-\babel-register-6.23.0.tgz'
+317 verbose stack TypeError: tarball.destroy is not a function
+317 verbose stack     at WriteStreamAtomic.<anonymous> (C:\Users\Admin\AppData\Local\.meteor\packages\meteor-tool\1.4.3_1\mt-os.windows.x86_32\dev_bundle\lib\node_modules\npm\lib\cache\add-remote-tarball.js:97:15)
+317 verbose stack     at emitOne (events.js:82:20)
+317 verbose stack     at WriteStreamAtomic.emit (events.js:169:7)
+317 verbose stack     at WriteStreamAtomic.emit (C:\Users\Admin\AppData\Local\.meteor\packages\meteor-tool\1.4.3_1\mt-os.windows.x86_32\dev_bundle\lib\node_modules\npm\node_modules\fs-write-stream-atomic\index.js:60:34)
+317 verbose stack     at C:\Users\Admin\AppData\Local\.meteor\packages\meteor-tool\1.4.3_1\mt-os.windows.x86_32\dev_bundle\lib\node_modules\npm\node_modules\fs-write-stream-atomic\index.js:89:19
+317 verbose stack     at FSReqWrap.oncomplete (fs.js:82:15)
+318 verbose cwd C:\Users\Admin\Desktop\PlayGround\meteorReact
+319 error Windows_NT 10.0.14393
+320 error argv "C:\\Users\\Admin\\AppData\\Local\\.meteor\\packages\\meteor-tool\\1.4.3_1\\mt-os.windows.x86_32\\dev_bundle\\bin\\node.exe" "C:\\Users\\Admin\\AppData\\Local\\.meteor\\packages\\meteor-tool\\1.4.3_1\\mt-os.windows.x86_32\\dev_bundle\\lib\\node_modules\\npm\\bin\\npm-cli.js" "install" "--save-dev" "babel-cli" "babel-preset-react"
+321 error node v4.7.3
+322 error npm  v4.1.2
+323 error tarball.destroy is not a function
+324 error If you need help, you may report this error at:
+324 error     <https://github.com/npm/npm/issues>
+325 verbose exit [ 1, true ]
