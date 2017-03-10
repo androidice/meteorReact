@@ -21,7 +21,7 @@ export default class Form extends Component {
   render(){
     return (
       <div>
-        <ForumHeader users={this.state.users}/>
+        <ForumHeader users={this.state.users} name="Kevin Alviola"/>
         <h1>Forum Section</h1>
       </div>
     );
