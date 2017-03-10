@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Forum from './Forum.react'
 
 export default  class App extends Component {
   render(){
@@ -13,6 +14,9 @@ export default  class App extends Component {
           Lorem Ipsum as their default model text, and a search for 'lorem ipsum' <br/>
           will uncover many web sites still in their infancy. Various versions have evolved over the years,<br/>
           sometimes by accident, sometimes on purpose (injected humour and the like).</span>
+        <div id="forurm section">
+          <Forum/>
+        </div>
       </div>
     );
   }
