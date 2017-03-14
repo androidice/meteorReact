@@ -2,7 +2,17 @@ import React, { Component } from 'react';
 import Forum from './Forum.react'
 
 export default  class App extends Component {
+  constructor(props){
+    super(props);
+    eventEmitter.on('Stated the app',()=>{
+      console.log('started the app');
+    });
+    eventEmitter.on('Stated the app',()=>{
+      console.log('started the app #2');
+    });
+  }
   render(){
+    eventEmitter.emit('Stated the app');
     return(
       <div className="header-class">
         <h1>Hello world React</h1> <br/>
