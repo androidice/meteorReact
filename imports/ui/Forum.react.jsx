@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import ForumHeader from './ForumHeader.react'
 
+import ForumDispatcher from '../dispatcher/ForumDispatcher';
+
 export default class Form extends Component {
   constructor(props){
     super(props);
